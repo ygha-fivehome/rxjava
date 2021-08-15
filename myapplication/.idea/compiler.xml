@@ -51,6 +51,7 @@
       <module name="My_Application.single" target="1.8" />
       <module name="My_Application.subject" target="1.8" />
       <module name="My_Application.subscribewith" target="1.8" />
+      <module name="My_Application.take" target="1.8" />
       <module name="My_Application.zip" target="1.8" />
       <module name="My_Application.zip_electricmeter" target="1.8" />
       <module name="My_Application.zipWith" target="1.8" />
