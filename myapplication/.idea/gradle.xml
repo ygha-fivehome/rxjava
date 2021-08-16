@@ -41,6 +41,7 @@
             <option value="$PROJECT_DIR$/reduce_scan" />
             <option value="$PROJECT_DIR$/replaysubject" />
             <option value="$PROJECT_DIR$/retry" />
+            <option value="$PROJECT_DIR$/retrytest" />
             <option value="$PROJECT_DIR$/rxjava1" />
             <option value="$PROJECT_DIR$/sample" />
             <option value="$PROJECT_DIR$/scheduler" />

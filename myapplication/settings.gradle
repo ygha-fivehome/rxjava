@@ -39,3 +39,4 @@ include ':rxjava1'
 include ':app'
 rootProject.name = "My Application"
 include ':take'
+include ':retrytest'

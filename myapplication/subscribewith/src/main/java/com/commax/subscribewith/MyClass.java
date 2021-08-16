@@ -44,6 +44,11 @@ public class MyClass {
 
                 );
 
+        if(!d.isDisposed())
+            d.dispose();
+
+
+
         Observable<String> stringObservable = Observable.just("test");
 
 
@@ -70,7 +75,7 @@ public class MyClass {
                 .subscribeWith(new DisposableObserver<Integer>(){
                     @Override
                     public void onNext(Integer integer) {
-                        System.out.println("compositDisposable, onNext :"+integer);
+
                     }
 
                     @Override
@@ -83,9 +88,10 @@ public class MyClass {
 
                     }
                 })
-
         );
 
+        if(!compositeDisposable.isDisposed())
+            compositeDisposable.dispose();
 
     }
 }

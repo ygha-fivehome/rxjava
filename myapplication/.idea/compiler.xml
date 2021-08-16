@@ -45,6 +45,7 @@
       <module name="My_Application.reduce_scan" target="1.8" />
       <module name="My_Application.replaysubject" target="1.8" />
       <module name="My_Application.retry" target="1.8" />
+      <module name="My_Application.retrytest" target="1.8" />
       <module name="My_Application.rxjava1" target="1.8" />
       <module name="My_Application.sample" target="1.8" />
       <module name="My_Application.scheduler" target="1.8" />

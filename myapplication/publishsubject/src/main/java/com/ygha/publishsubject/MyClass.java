@@ -1,5 +1,7 @@
 package com.ygha.publishsubject;
 
+import org.reactivestreams.Publisher;
+
 import io.reactivex.Observable;
 import io.reactivex.subjects.PublishSubject;
 
@@ -67,6 +69,15 @@ public class MyClass {
         source.subscribe(System.out::println, Throwable::printStackTrace);
         publishSubject.onNext("1");
          */
+
+
+        PublishSubject<String> subject = PublishSubject.create();
+        subject.subscribe(data->System.out.println("#1==>"+data));
+        subject.onNext("RED");
+        subject.onNext("GREEN");
+        subject.subscribe(data->System.out.println("#2=>"+data));
+        subject.onNext("BLUE");
+        subject.onComplete();
 
 
     }
